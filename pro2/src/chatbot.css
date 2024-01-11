@@ -1,0 +1,90 @@
+/* chatbot.css */
+
+/* Style for the container div */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5; /* Light background color */
+  }
+  
+  /* Style for the chat icon */
+  df-messenger {
+    --df-messenger-avatar: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/JNTU-GV_Logo.jpg/800px-JNTU-GV_Logo.jpg');
+    border-radius: 10px; /* Rounded corners for the chat window */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft box shadow for depth */
+  }
+  
+  /* Optional: Add more styles for the chat window if needed */
+  df-messenger > div {
+    overflow: hidden;
+  }
+  
+  /* Style for the chat window title */
+  df-messenger .chat-title {
+    background-color: #2196F3; /* Blue background color for the title */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Style for the chat messages */
+  df-messenger .message {
+    padding: 10px;
+  }
+  
+  /* Style for the user's messages */
+  df-messenger .user-message {
+    background-color: #4CAF50; /* Green background color for user messages */
+    color: #fff; /* White text color */
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  
+  /* Style for the bot's messages */
+  df-messenger .assistant-message {
+    background-color: #fff; /* White background color for assistant messages */
+    color: #333; /* Dark text color */
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  
+  /* Style for the chat input area */
+  df-messenger .input-container {
+    border-top: 1px solid #ccc; /* Gray border on top of the input area */
+    padding: 10px;
+  }
+  
+  /* Style for the chat input field */
+  df-messenger .input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  /* Style for the chat send button */
+  df-messenger .send-button {
+    background-color: #2196F3; /* Blue background color for the send button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  df-messenger .send-button:hover {
+    background-color: #1565C0; /* Darker blue on hover */
+  }
+  
+  
+  
